@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 html {
     font-size: 62.5%;
     background: black;
     color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 2.5rem;
 }
 
 /*////////////////////////
@@ -12,6 +16,23 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.nasaLogo {
+    height: 10rem;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateContainer {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    color: rgba(190,70,46,1)
 }
 
 h1 { 
@@ -26,12 +47,16 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
 
 img {
-    height: 500px;
-    border: 5px solid white;
+    height: 50rem;
+    width: auto;
+}
+
+span {
+    font-size: 2rem;
+    color: rgba(190,70,46,1)
 }
 
 p {
