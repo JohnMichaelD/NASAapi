@@ -1,7 +1,42 @@
 html {
     font-size: 62.5%;
+    background: black;
+    color: white;
 }
 
+/*////////////////////////
+Body
+////////////////////////*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h1 { 
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+img {
+    height: 500px;
+    border: 5px solid white;
+}
+
+p {
+    font-size: 2rem;
+}
 
 /*////////////////////////
 Media Queries
